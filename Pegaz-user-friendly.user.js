@@ -18,7 +18,7 @@
 
 //edit this list to hide chosen courses
 var filteredList = [
-   	"Nazwa przedmiotu [kod]",
+   	"Course name [id]",
   	"DO NOT EDIT THIS LINE"
 ]
 
