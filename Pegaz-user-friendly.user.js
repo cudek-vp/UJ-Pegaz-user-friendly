@@ -10,7 +10,7 @@
 
 //example filterd list (the actual list to edit is below this example):
 //var filteredList = [
-//   	""Bioinformatyka 2. Wykład, grupa nr 1 [WBT-BINF2-1.1 19/20Z WYK 1]",
+//   	"Bioinformatyka 2. Wykład, grupa nr 1 [WBT-BINF2-1.1 19/20Z WYK 1]",
 //    "Bioinformatyka 2. Ćwiczenia, grupa nr 1 [WBT-BINF2-1.1 19/20Z CW 1]",
 //    "Biologia komórki - kurs dla biochemików. Wykład, grupa nr 1 [WBT-BCH336 19/20Z WYK 1]",
 //  	"DO NOT EDIT THIS LINE"
