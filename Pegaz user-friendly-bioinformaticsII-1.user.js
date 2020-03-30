@@ -8,13 +8,15 @@
 // @description The script to sipmplify UJ Pegaz interface. Additionaly, if you see unwanted courses on your courses list, choose edit script option and add unwanted courses to the filteredList.
 // ==/UserScript==
 
+//####################-EXAMPLE-########################################
 //example filterd list (the actual list to edit is below this example):
 //var filteredList = [
 //    "Bioinformatyka 2. Wykład, grupa nr 1 [WBT-BINF2-1.1 19/20Z WYK 1]",
 //    "Bioinformatyka 2. Ćwiczenia, grupa nr 1 [WBT-BINF2-1.1 19/20Z CW 1]",
 //    "Biologia komórki - kurs dla biochemików. Wykład, grupa nr 1 [WBT-BCH336 19/20Z WYK 1]",
-//    "DO NOT EDIT THIS LINE"
+//    "DO NOT TOUCH THIS LINE ;)"
 //]
+//#####################################################################
 
 //edit this list to hide chosen courses
 var filteredList = [
@@ -42,12 +44,6 @@ var filteredList = [
     "Sygnalizacja komórkowa. Wykład, grupa nr 1 [WBT-BCH356 19/20Z WYK 1]",
     "Szkolenie USOSweb dla studentów WBBiB. Kształcenie na odległość, grupa nr 7 [WBT-BT638 19/20Z EL 7]",
   	"DO NOT EDIT THIS LINE"
-]
-
-//edit this list to hide chosen courses
-var filteredList = [
-    "Course name [1]",
-    "DO NOT TOUCH THIS LINE ;)"
 ]
 
 var coursesView = document.getElementById("courses-view-in-progress");
